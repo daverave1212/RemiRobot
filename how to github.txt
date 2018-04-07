@@ -1,0 +1,55 @@
+	GitHub : Git CMD or cmd
+
+> cmd (as administrator)
+> github>repository>clone green button>get link
+> in cmd, navigate to folder with cd and shit
+> in cmd "github clone <link>"
+> other teammates will do the same thing
+
+> "git status" = displays files that are different at us compared to the version up in the sky
+
+> "git add <file, cu sau fara ghilimele>"
+> "git commit -m "This is the commit message" "
+> "git push
+
+
+	DECI:
+1) Facem ce vrem cu proiectul
+2)
+	git status
+	git add "file" / git add . / git add -A
+	git commit -m "Description"
+	git push
+
+
+	TO SYNC WITH WEB (like, first thing you do probably)
+	git pull
+
+IF WE EVER GET STUCK IN CMD, PRESS ESCAPE AND TYPE :wq
+__________________________________________________________________________
+	GIT : Git BASH
+
+> open Git Bash as admin
+> navigate to folder with cd e:/folder
+> git init (initializes git for this repository)
+> now there will be a HIDDEN folder called .git
+
+> create a new branch
+> git branch MyBranch
+> git checkout MyBranch
+> now we are working on the MyBranch
+> git checkout master
+> now we are back to the main branch
+
+> push MyBranch as the main branch
+> git merge MyBranch
+
+
+
+
+
+
+
+
+
+

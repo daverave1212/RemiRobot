@@ -1,0 +1,80 @@
+Sanity: Cand scade la 0, pot sa te pun sa dai un reroll la un check
+
+
+Clase:
+	Muncitor in Fabrica
+	Student
+	Lup
+	Fumator de Tutun
+	Scrior
+	Preot
+	
+	
+
+Rasa:
+	Om
+	Tigan
+	Animal Domestic
+	Zeta Reticulian
+	Vampir
+
+
+	OM
+Omul vine din tara noastra. Ai drepturi de cetatean, poti detine apartamente si poti avea orice meserie iti doresti. In tara noastra, oamenii o duc bine, atat timp cat nu incalca legile.
+Ca om, iti poti alege o limba secundara de dimensiune medie.
+Exemple acceptate: Francheza, Ghermana, Araba, etc
+Exemple neacceptate: Hindi, Portugheza, Swahili
+Clase valabile:
+	Muncitor in Fabrica
+	Student
+	Lup
+	Fumator de Tutun
+	Scrior
+	Preot
+
+
+	TIGAN
+Tiganii vin din Tigania, lumea tiganilor (evident). Ai semi-drepturi de cetatean. In tara noastra, tiganii de obicei sunt intr-una din doua extreme: foarte buni sau foarte rai.
+Ca tigan, iti poti alege una dintre cele doua insusiri:
+	Foarte bun - de obicei umili si cinstiti
+	Foarte rau - de obicei umili si necinstiti
+Clase valabile:
+	Muncitor in Fabrica
+	Student
+	Lup
+	Preot
+
+	ANIMAL DOMESTIC
+Esti un animal domestic. Ai drepturi de cetatean al tarii si poti merge pe doua picioare si vorbi limba tarii. In tara noastra, animalele de obicei nu o duc foarte bine si traiesc in favele sau cu chirie in apartamentele altor cetateni, castigand bani din vanzarea de busuioc.
+Ca animal, poti alege sa fi orice animal domestic de dimensiune medie.
+Exemple acceptate: Magar, Leopard, Mistret, etc
+Exemple neacceptate: Caine, Dihor, Dinozaur, etc (cainii, dihorii si dinozaurii nu au drepturi in tara noastra)
+Clase valabile:
+	Muncitor in Fabrica
+	Fumator de Tutun
+	Scrior
+
+	ZETA RETICULIAN
+Esti un extraterestru gri venit din constelatia Zeta Reticuli. Nu ai drepturi si nu poti detine apartamente, iar de obicei locuiesti intr-un OZENE care pluteste alene deasupra altor apartamente. In tara noastra, Zeta Reticulienii sunt de obicei comercianti pasnici sau sportivi antrenati.
+Ca Zeta Reticulian, iti poti alege forma navei de pe care vi:
+	Forma de pizza
+	Triunghi
+	Cub
+Clase valabile:
+	Muncitor in Fabrica
+	Student
+	Fumator de Tutun
+
+	VAMPIR
+Esti un vampir insetat de sange, creat prin vampirism (bineinteles).
+Drepturile tale sunt ambigue. De obicei locuiesti pe ascuns in casele altor oameni, in dulapuri, canapele etc. Astfel iti poti alege habitatul natural.
+Iti poti alege orice habitat natural de dimensiune medie si vei deveni un vampir de acel tip.
+Exemple Acceptate: Vampir de Canapea, Vampir de Dulap, Vampir de Frigider
+Exemple neacceptate: Vampir de Sticla, Vampir de Buzunar, Vampir de Camera
+Clase valabile:
+	Muncitor in Fabrica
+	Fumator de Tutun
+	Scrior
+	Preot
+	
+	
