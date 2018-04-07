@@ -118,9 +118,9 @@
 		return document.getElementById(theElement);
 	}
 	
-	function normalize(theElement){
+	function normalizeConsole(theElement){
 		theElement.style.width = "300px";
-		theElement.style.height = "300px";
+		theElement.style.height = "150px";
 		theElement.style.position = "relative";
 	}
 	

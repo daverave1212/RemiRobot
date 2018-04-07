@@ -10,7 +10,7 @@
 		this.color = c;
 		this.amount = 2;
 		
-		this.dropValue = 0;
+		this.score = 0;
 		this.formsSet = false;
 		
 	}
@@ -44,11 +44,34 @@
 	Hand.sortPiecesByColor = function(){
 		for(var i = 0; i<Hand.pieces.length; i++){
 			console.log(Hand.pieces[i].number);
+			Hand.pieces[i].score = 0;
 			var currentPieceColor = Hand.pieces[i].color;
 			Hand.piecesByColor[currentPieceColor].push(Hand.pieces[i]);}
 		for(var i = 0; i<4; i++){
-			console.log("Pieces of same color: " + Hand.piecesByColor[i].length);}
+			Hand.piecesByColor[i].sort(function(pieceA, pieceB){
+				return pieceA.number - pieceB.number;});
+			console.log("Pieces of same color: " + Hand.piecesByColor[i].length);}}
+	Hand.scorePieces = function(){
+		
 	}
+			
+			
+		RED:	2 7 8 10 13
+		BLUE:	4 5 6 9 10
+		YELLOW:	6 11
+		DARK:	1 6 10
+		
+		for each piece:
+			looks for matches. more matches = bigger score
+			matches don't exist in deck = lower score
+			only 2 in match and distance to left and right is big = lower score
+			
+			more pieces in the same color = bigger score
+			less distance to left and right = bigger score
+			left and right don't exist in deck = lower score
+			closer to max left and right = smaller score
+			
+			double = percent lower score depending on matches and distance
 	
 		
 		
@@ -106,7 +129,7 @@
 			Hand.removePiece(pieceNumber, pieceColor);
 			console.log("Dropped " + input[1]);
 			}
-		else if(command == "x"){
+		else if(command == "end"){
 			alert("wtf");
 			var pieceNumber;
 			var pieceColor;
@@ -133,14 +156,13 @@
 			Board.pieces[pieceIndexOnBoard].amount--;
 			AlwaysAvailablePiece = new Piece(pieceNumber, pieceColor);}
 		else if(command == "go"){
-			alert("hi");
 			analyzeHand();
 		}
 		}
 	
 	function initConsole(){
 		customConsole = createElement("textarea");
-		normalize(customConsole);
+		normalizeConsole(customConsole);
 		add(customConsole);
 		logger = createElement("scrollbox");
 		add(logger);
@@ -160,4 +182,22 @@
 		initConsole();
 	
 	} window.onload = main;
+	
+	450 pui
+	160 paine
+	80 ou
+	300 ciocolata
+	100	rosii
+	30	paprika
+	35	cucumba
+	70	zmeuri
+	____
+	1225
+	
+	
+	
+	
+	
+	
+	
 	
